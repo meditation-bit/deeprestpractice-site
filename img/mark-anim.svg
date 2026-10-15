@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100"><style>
+.hz{transform-box:fill-box;transform-origin:center;animation:hz 1.2s cubic-bezier(.2,.7,.2,1) both}
+.sun{animation:sun 1.8s .6s cubic-bezier(.2,.7,.2,1) both}
+.r1,.r2{transform-origin:50px 64px;animation:rin 1s 1.8s cubic-bezier(.2,.7,.2,1) both,breathe 10s 3.2s ease-in-out infinite}
+.r2{animation-delay:2.3s,3.7s}
+.word{animation:word 1.2s 2.6s ease-out both}
+@keyframes hz{from{transform:scaleX(0)}}
+@keyframes sun{from{transform:translateY(17px)}}
+@keyframes rin{from{opacity:0;transform:scale(.82)}}
+@keyframes breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.05);opacity:.3}}
+@keyframes word{from{opacity:0;transform:translateY(6px)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style><defs><clipPath id="above"><rect x="0" y="-60" width="100" height="124"/></clipPath></defs><g transform="translate(0,0) scale(1.0)" fill="none" stroke-linecap="round"><g clip-path="url(#above)"><circle class="sun" cx="50" cy="64" r="13" fill="#7EC4BA"/></g><path class="r1" d="M26.51,55.45 A25,25 0 0 1 73.49,55.45" stroke="#7EC4BA" stroke-width="3.2" opacity="0.85"/><path class="r2" d="M15.23,51.35 A37,37 0 0 1 84.77,51.35" stroke="#7EC4BA" stroke-width="3.2" opacity="0.5"/><line class="hz" x1="14" y1="64" x2="86" y2="64" stroke="#F4F1EA" stroke-width="3.2"/></g></svg>
