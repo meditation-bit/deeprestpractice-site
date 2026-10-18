@@ -98,6 +98,15 @@ border:1px solid rgba(126,196,186,.25);box-shadow:0 0 0 18px rgba(126,196,186,.0
 .pillars{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:26px;margin-top:30px}
 .pillars div{border-top:2px solid var(--acc);padding-top:16px}.pillars h3{font-size:24px;margin-bottom:8px}.pillars p{color:var(--mute);margin:0}
 /* research page */
+.post{max-width:720px;margin:0 auto;font-size:18px;line-height:1.75}
+.post h2{font-size:30px;margin:42px 0 12px}.post p{margin:0 0 18px}.post ul,.post ol{padding-left:22px;margin:0 0 18px}
+.post .meta{color:var(--mute);font-size:14px;margin-top:16px}
+.cite{border:1px solid rgba(126,196,186,.25);border-radius:16px;padding:20px 22px;margin:36px 0;background:rgba(126,196,186,.05);font-size:15px}
+.cite b{display:block;color:var(--acc);font-size:12px;letter-spacing:.16em;text-transform:uppercase;margin-bottom:8px}
+.jlist{max-width:820px;margin:0 auto;display:grid;gap:18px}
+.jitem{display:block;padding:24px 26px;border-radius:18px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.03);text-decoration:none;color:inherit;transition:border-color .3s,transform .3s}
+.jitem:hover{border-color:rgba(126,196,186,.45);transform:translateY(-2px)}
+.jitem h3{font-size:26px;margin:6px 0 8px}.jitem p{margin:0;color:var(--mute)}
 .rhero{padding:150px 0 120px;overflow:hidden;position:relative;background:linear-gradient(180deg,#07131b,#0e2634)}
 .rhero h1{font-size:clamp(40px,6.5vw,76px)}
 .rlayout{display:grid;grid-template-columns:230px 1fr;gap:50px;align-items:start}
@@ -167,11 +176,11 @@ footer img{height:30px;margin-bottom:12px}
 @media (hover:none){.glow{display:none}}
 </style></head><body><canvas class="sky" aria-hidden="true"></canvas><div class="glow" aria-hidden="true"></div><div class="progress" aria-hidden="true"></div>
 <header><div class="wrap"><a href="index.html" aria-label="Deep Rest Practice home"><img src="img/logo-anim.svg" alt="Deep Rest Practice"></a>
-<nav><a href="index.html#practices">Practices</a><a href="index.html#breathe" class="opt">Breathe</a><a href="research.html">Research</a><a href="index.html#about" class="opt">About</a></nav></div></header><section class="rhero" style="padding-bottom:60px"><div class="wrap"><h1>Privacy</h1></div></section>
+<nav><a href="index.html#practices">Practices</a><a href="index.html#breathe" class="opt">Breathe</a><a href="research.html">Research</a><a href="journal.html">Journal</a><a href="index.html#about" class="opt">About</a></nav></div></header><section class="rhero" style="padding-bottom:60px"><div class="wrap"><h1>Privacy</h1></div></section>
 <div class="wrap" style="max-width:760px"><p>This website has no analytics, no advertising trackers and sets no cookies.
 Fonts are loaded from Google Fonts, which receives your IP address when the page loads. If you email us, we use your
 address only to reply.</p><p>When you listen on YouTube or Spotify, their own privacy policies apply.</p>
-<p>Contact: <a href="mailto:hello@deeprestpractice.com">hello@deeprestpractice.com</a>. Last updated 2026-10-15.</p></div><footer><div class="wrap"><img src="img/logo-static.svg" alt="Deep Rest Practice"><p>For relaxation and general wellbeing only. This is not medical advice and not a treatment for any condition. Do not listen while driving or operating machinery.</p><p>&copy; 2026 Deep Rest Practice &middot; <a href="mailto:hello@deeprestpractice.com">hello@deeprestpractice.com</a> &middot; <a href="research.html">Research</a> &middot; <a href="privacy.html">Privacy</a></p></div></footer><script>
+<p>Contact: <a href="mailto:hello@deeprestpractice.com">hello@deeprestpractice.com</a>. Last updated 2026-10-18.</p></div><footer><div class="wrap"><img src="img/logo-static.svg" alt="Deep Rest Practice"><p>For relaxation and general wellbeing only. This is not medical advice and not a treatment for any condition. Do not listen while driving or operating machinery.</p><p>&copy; 2026 Deep Rest Practice &middot; <a href="mailto:hello@deeprestpractice.com">hello@deeprestpractice.com</a> &middot; <a href="research.html">Research</a> &middot; <a href="journal.html">Journal</a> &middot; <a href="privacy.html">Privacy</a></p></div></footer><script>
 const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
 // split section headings into words that rise in one after another
 document.querySelectorAll('section h2').forEach(h=>{if(h.closest('.hero'))return;
